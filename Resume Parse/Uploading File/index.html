@@ -1,0 +1,20 @@
+<!-- ! then enter got us started -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Flask File Uploads Tutorial</h1>
+
+    <form method='POST' enctype='multipart/form-data'> <!-- this form method = post basically means that whenever we press the submit button were going to be sending a post request to the server and once we receiev that post request were going to be uploading the file that was provided -->
+        <!-- enctype thingy will allow us to upload files through tis form -->
+        {{form.hidden_tag()}} <!-- there to create a hidden field which includes a token which is used to protect this form against csrf attacks -->
+        {{form.file()}} <!-- to diplay the file field -->
+        {{form.submit()}} <!-- to display upload file button -->
+    </form>
+</body>
+</html>
