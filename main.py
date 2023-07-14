@@ -1,5 +1,27 @@
 # https://www.youtube.com/watch?v=GeiUTkSAJPs
 # https://www.youtube.com/watch?v=I9BBGulrOmo
+
+# This used to be the line
+#     return render_template('content.html', text=open(resume.name,'r').read(), results=results, score=resume.score, resumes=resumes_sorted)
+
+
+# Things I have to fix:
+
+# At the moment, when I upload a file to be processed, it must also be in the directory which I am currently in in terminal when I run the program.
+# Otherwise an exception is thrown in line 59 of main.py: file = open(filename,'r')
+
+# can probably make it that it doesnt have to go through all the resumes each time just add the new one
+
+# there has to be a better way to be able to upload multiple resumes
+
+# file names currently cant have empty space characters
+
+
+# To add
+# - remove a resume
+# - be able to click on a resume and read it
+# - lav dafka txt?
+
 from flask import Flask, flash, request, redirect, url_for, render_template # render_template allows us to return actual files instead of just text
 from flask_wtf import FlaskForm
 from wtforms import SubmitField
