@@ -1,0 +1,50 @@
+body {
+    background-color:#f4f4f4;
+    color:#000000;
+    margin:auto;
+    width:90%;
+}
+
+table, td {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #000000;
+    color: #FFFF00;
+}
+
+th.col1 {
+    width: 20%;
+}
+
+th.col2 {
+    width: 10%;
+}
+
+th.col3 {
+    width: 70%;
+}
+
+td.col1 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+td.col2 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+td.col3 {
+    text-align: left;
+    vertical-align: top;
+    
+}
+
+tr:nth-child(even) {background-color: #D3D3D3;}

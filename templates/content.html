@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/content.css') }}">
+</head>
+<body>
+    <h1>Resume Parse Project</h1>
+    <body>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col1">File Name</th>
+                        <th class="col2">Score</th>
+                        <th class="col3">Key Words</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for obj in resumes %}
+                    <tr>
+                        <td class="col1">{{obj.name}}</td>
+                        <td class="col2">{{obj.score}}</td>
+                        <td class="col3">{% for i in obj.keywords %}{{ i + ", " }}{% endfor %}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+
+    </body>
+    <a href="{{ url_for('home') }}">Back</a>
+</body>
+</html>

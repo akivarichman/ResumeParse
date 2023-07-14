@@ -1,0 +1,48 @@
+<!-- ! then enter got us started -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <div class="all">
+            <div class="title">
+                <h1>Resume Parse Project</h1>
+            </div>
+            <div class="form">
+                <form action='#' method='POST' enctype='multipart/form-data'> <!-- this form method = post basically means that whenever we press the submit button were going to be sending a post request to the server and once we receieve that post request were going to be uploading the file that was provided -->
+                    <div>
+                        <!-- enctype thingy will allow us to upload files through tis form -->
+                        {{form.hidden_tag()}} <!-- there to create a hidden field which includes a token which is used to protect this form against csrf attacks --- there is also this I think {{ form.csrf_token }} -->
+                        {{ form.files(multiple="multiple") }}
+                        <!-- {{form.submit()}} to display upload file button -->
+                    </div>
+                    <br>
+                    <div>
+                        <label>Key Words:</label>
+                        <input type="text" name="keys">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" name="submit" value="Submit">
+                    </div>
+                </form>
+                <p>
+                    {% with messages = get_flashed_messages() %}
+                        {% if messages %}
+                            <ul>
+                            {% for messages in messages %}
+                                <li>{{messages}}</li>
+                            {% endfor %} 
+                            </ul>
+                        {% endif %} 
+                    {% endwith %}
+                </p>
+            </div>
+            <div class="end">
+
+            </div>
+        </div>
+    </body>
+</html>
