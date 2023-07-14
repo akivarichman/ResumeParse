@@ -60,7 +60,6 @@ def home():
         Resumes.keyword_list = re.split('[^a-zA-Z0-9]', keys)
         if form.validate_on_submit():
             files = request.files.getlist('files')
-            print('Hello', files)
             for file in files:
                 filename = secure_filename(file.filename)
                 # absolutePath = os.path.abspath(file.filename)

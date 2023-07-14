@@ -1,0 +1,70 @@
+May Trix
+888-888-8881 | mtrix@andrew.cmu.edu
+EDUCATION
+CARNEGIE MELLON
+UNIVERSITY
+B.S.INCOMPUTERSCIENCE
+Pittsburgh, PA| ExpectedMay2018
+SKILLS
+Java • Python • C • SML • HTML5 •
+CSS • Django • Android • LATEX•Git
+Datastructures • Software design
+patterns
+COURSEWORK
+Parallel andSequentialData
+Structures andAlgorithms
+Introduction toComputer Systems
+Software System Construction
+Great TheoreticalIdeas in Computer
+Science
+Web Application Development
+Principles ofImperative
+Computation
+Principles of Functional
+Programming
+LINKS
+Github://maytrix
+LinkedIn:// maytrix
+EXPERIENCE
+CARNEGIEMELLONUNIVERSITY,HUMAN-COMPUTER
+INTERACTION INSTITUTE | RESEARCH ASSISTANT
+February2016 - Present | Pittsburgh, PA
+• Make Android and web apps for NavCog, a toolthat uses sensors,
+computer vision, and crowdsourcing to help blind people move in
+spaces. Target crowdsourcingeffortto create 3-D modelsof buildings
+and maintain sensors.
+June2015 - August2015 | Pittsburgh, PA
+• Led 3 person teamdeveloping mobile andwear apps forChorus, a webbased crowdsourcingconversational assistant. Has texttospeechand
+speechtotext capabilities. Uses YelpSearchandYahoo APIs.
+• Made a natural language processortoolto be added toChorusweb application.
+BUSINESSGOLFACADEMY | SOCIAL MEDIA MANAGER
+May2015 – Present | Pittsburgh, PA
+• Manage the socialmedia presence forBGA,whichencourages
+womento use golftoadvance their careers. TripledTwitterfollowers
+PROJECTS
+UMBRELLA | LEADANDROIDDEVELOPER, GITREPO MANAGER
+February 2016
+• App uses crowdsourcing to fight gender-based violence and the
+bystander effect.Bluetooth-based messaging whereusers
+anonymouslypost situation.
+BUDGIE | LEADANDROIDDEVELOPER,GITREPOMANAGER
+September 2015
+• Apptomanage andcategorize expenses.ImplementsMicrosoft’s
+Oxford OpitcalCharacter Recognition API. Pie charts show
+spending distribution.
+ACTIVITIES
+WOMEN’SVARSITYGOLF TEAM | CAPTAIN (2014-PRESENT)
+August2014 – Present | Pittsburgh, PA
+• Won Thomas B. Craig & LaVerne Craig Tartan Award 2015-2016
+(Most Valuable Player), University Athletic Association All
+Association First Team, Eastern College Athletic Conference
+Rookie of the Month Division III, University Athletic Association
+Women’s Golf Athlete of the Week (3 times)
+• Student Athlete Advisory Council | September 2014 - May 2015
+WOMEN@SCS | MENTOR
+September 2014 – Present | Pittsburgh,PA
+• ”Big sister” inthe Big Sister/Little Sister mentoringprogram.
+THEFIRSTTEEOFPITTSBURGH | VOLUNTEERGOLF
+INSTRUCTOR
+September 2014 – Present | Pittsburgh,PA
+• Teachgolf and life skills to 20 underprivileged children ages 8-16 years
